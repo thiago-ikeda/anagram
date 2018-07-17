@@ -1,0 +1,20 @@
+{
+  "name": "anagram",
+  "version": "1.0.0",
+  "description": "Simple anagram application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "author": "Thiago Ikeda",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "word-list": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "superagent": "^3.8.3"
+  }
+}
